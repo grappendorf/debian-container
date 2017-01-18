@@ -1,3 +1,3 @@
 #!/bin/bash
-docker build -t grappendorf/debian:7.7 .
-docker tag grappendorf/debian:7.7 grappendorf/debian:7
+docker build -t dockerrepo.grappendorf.net/production/debian:7.7 .
+docker tag dockerrepo.grappendorf.net/production/debian:7.7 dockerrepo.grappendorf.net/production/debian:7
