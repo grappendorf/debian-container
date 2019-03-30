@@ -1,3 +1,3 @@
 #!/bin/bash
-docker build -t dockerrepo.grappendorf.net/production/debian:7.7 .
-docker tag dockerrepo.grappendorf.net/production/debian:7.7 dockerrepo.grappendorf.net/production/debian:7
+docker build -t nexus.grappendorf.net:5000/production/debian:8.11 .
+docker tag nexus.grappendorf.net:5000/production/debian:8.11 nexus.grappendorf.net:5000/production/debian:8
